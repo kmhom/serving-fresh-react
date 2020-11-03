@@ -105,7 +105,7 @@ class Landing extends Component {
         return (
             <div>
                 <Grid container style={styles} spacing={3} direction="column">
-                    <h1 style={{color:'black'}}>Welcome to Serving Fresh</h1>
+                    
                     <Grid item xs >
                         <Button component={Link} to="/login" variant="contained">Login!</Button>
                     </Grid>
